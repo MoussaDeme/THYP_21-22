@@ -7,65 +7,65 @@
 @prefix ma: <http://www.w3.org/ns/ma-ont#>.
 @prefix mo: <http://purl.org/ontology/mo#>.
 @prefix jdc: <https://jardindesconnaissances.univ-paris8.fr/onto/jdc#> .
-@prefix Personne: <https://github.com/MoussaDeme/THYP_21-22/edit/master/onto/onto.ttl#> .
+@prefix Vente: <https://github.com/MoussaDeme/THYP_21-22/edit/master/onto/onto.ttl#> .
 
 <https://github.com/MoussaDeme/THYP_21-22/edit/master/onto/onto.ttl#> a owl:Ontology ;
-    dcterms:title "Jardin des connaissances" .
+    dcterms:title "E-commerce" .
 
-Personne:admin a rdfs:Class ;
-    rdfs:label "Rapport" ;
+Vente:admin a rdfs:Class ;
+    rdfs:label "nom" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-Personne:User a rdfs:Class ;
-    rdfs:label "Concept" ;
+Vente:User a rdfs:Class ;
+    rdfs:label "nom" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
 
-Personne:x a rdf:Property ;
+Vente:x a rdf:Property ;
     rdfs:label "x" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-Personne:y a rdf:Property ;
+Vente:y a rdf:Property ;
     rdfs:label "y" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-Personne:xRatingValue a rdf:Property ;
+Vente:xRatingValue a rdf:Property ;
     rdfs:label "xRatingValue" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-Personne:yRatingValue a rdf:Property ;
+Vente:yRatingValue a rdf:Property ;
     rdfs:label "yRatingValue" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-Personne:degradName a rdf:Property ;
+Vente:degradName a rdf:Property ;
     rdfs:label "degradName" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-Personne:degradColors a rdf:Property ;
+Vente:degradColors a rdf:Property ;
     rdfs:label "degradColors" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
-Personne:creationDate a rdf:Property ;
+Vente:creationDate a rdf:Property ;
     rdfs:label "creationDate" ;
     rdfs:domain o:Resource .
 
-Personne:hasActant a rdf:Property ;
+Vente:hasActant a rdf:Property ;
     rdfs:label "a comme actant" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-Personne:hasDoc a rdf:Property ;
+Vente:hasDoc a rdf:Property ;
     rdfs:label "a comme document" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
-Personne:hasConcept a rdf:Property ;
+Vente:hasConcept a rdf:Property ;
     rdfs:label "a comme concept" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
