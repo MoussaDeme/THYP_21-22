@@ -7,9 +7,9 @@
 @prefix ma: <http://www.w3.org/ns/ma-ont#>.
 @prefix mo: <http://purl.org/ontology/mo#>.
 @prefix jdc: <https://jardindesconnaissances.univ-paris8.fr/onto/jdc#> .
-@prefix vente: <https://github.com/MoussaDeme/THYP_21-22/edit/master/onto/onto.ttl#> .
+@prefix vente: <https://github.com/MoussaDeme/THYP_21-22/blob/master/onto/onto.ttl#> .
 
-<https://github.com/MoussaDeme/THYP_21-22/edit/master/onto/onto.ttl#> a owl:Ontology ;
+<https://github.com/MoussaDeme/THYP_21-22/blob/master/onto/onto.ttl#> a owl:Ontology ;
     dcterms:title "E-commerce" .
 
 vente:admin a rdfs:Class ;
