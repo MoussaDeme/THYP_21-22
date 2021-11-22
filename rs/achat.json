@@ -1,5 +1,5 @@
 {
-    "o:label": "achat",
+    "o:label": "achat_",
     "o:resource_template_property": [
         {
             "o:alternate_label": null,
@@ -25,9 +25,9 @@
         }
     ],
     "o:resource_class": {
-        "vocabulary_namespace_uri": "https:\/\/github.com\/MoussaDeme\/onto\/blob\/master\/onto.ttf",
-        "vocabulary_label": "onto",
-        "local_name": "Concept",
-        "label": "Concept"
+        "vocabulary_namespace_uri": "https:\/\/github.com\/MoussaDeme\/THYP_21-22\/blob\/master\/onto\/onto.ttl",
+        "vocabulary_label": "Vente",
+        "local_name": "Produit",
+        "label": "produit"
     }
 }
