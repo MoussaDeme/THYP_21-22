@@ -7,9 +7,9 @@
 @prefix ma: <http://www.w3.org/ns/ma-ont#>.
 @prefix mo: <http://purl.org/ontology/mo#>.
 @prefix jdc: <https://jardindesconnaissances.univ-paris8.fr/onto/jdc#> .
-@prefix Personne: <https://github.com/MoussaDeme/onto/blob/master/onto.ttf#> .
+@prefix Personne: <https://github.com/MoussaDeme/THYP_21-22/edit/master/onto/onto.ttl#> .
 
-<https://jardindesconnaissances.univ-paris8.fr/onto/jdc#> a owl:Ontology ;
+<https://github.com/MoussaDeme/THYP_21-22/edit/master/onto/onto.ttl#> a owl:Ontology ;
     dcterms:title "Jardin des connaissances" .
 
 Personne:admin a rdfs:Class ;
