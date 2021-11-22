@@ -1,0 +1,73 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix o: <http://omeka.org/s/vocabs/o#> .
+@prefix ma: <http://www.w3.org/ns/ma-ont#>.
+@prefix mo: <http://purl.org/ontology/mo#>.
+@prefix jdc: <https://jardindesconnaissances.univ-paris8.fr/onto/jdc#> .
+@prefix Personne: <https://github.com/MoussaDeme/onto/blob/master/onto.ttf#> .
+
+<https://jardindesconnaissances.univ-paris8.fr/onto/jdc#> a owl:Ontology ;
+    dcterms:title "Jardin des connaissances" .
+
+Personne:admin a rdfs:Class ;
+    rdfs:label "Rapport" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+Personne:User a rdfs:Class ;
+    rdfs:label "Concept" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+
+Personne:x a rdf:Property ;
+    rdfs:label "x" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+Personne:y a rdf:Property ;
+    rdfs:label "y" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+Personne:xRatingValue a rdf:Property ;
+    rdfs:label "xRatingValue" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+Personne:yRatingValue a rdf:Property ;
+    rdfs:label "yRatingValue" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+Personne:degradName a rdf:Property ;
+    rdfs:label "degradName" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+Personne:degradColors a rdf:Property ;
+    rdfs:label "degradColors" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+Personne:creationDate a rdf:Property ;
+    rdfs:label "creationDate" ;
+    rdfs:domain o:Resource .
+
+Personne:hasActant a rdf:Property ;
+    rdfs:label "a comme actant" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+Personne:hasDoc a rdf:Property ;
+    rdfs:label "a comme document" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+Personne:hasConcept a rdf:Property ;
+    rdfs:label "a comme concept" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+    
