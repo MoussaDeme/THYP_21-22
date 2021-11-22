@@ -7,65 +7,65 @@
 @prefix ma: <http://www.w3.org/ns/ma-ont#>.
 @prefix mo: <http://purl.org/ontology/mo#>.
 @prefix jdc: <https://jardindesconnaissances.univ-paris8.fr/onto/jdc#> .
-@prefix Vente: <https://github.com/MoussaDeme/THYP_21-22/edit/master/onto/onto.ttl#> .
+@prefix vente: <https://github.com/MoussaDeme/THYP_21-22/edit/master/onto/onto.ttl#> .
 
 <https://github.com/MoussaDeme/THYP_21-22/edit/master/onto/onto.ttl#> a owl:Ontology ;
     dcterms:title "E-commerce" .
 
-Vente:admin a rdfs:Class ;
+vente:admin a rdfs:Class ;
     rdfs:label "nom" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-Vente:User a rdfs:Class ;
+vente:User a rdfs:Class ;
     rdfs:label "nom" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
 
-Vente:x a rdf:Property ;
+vente:x a rdf:Property ;
     rdfs:label "x" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-Vente:y a rdf:Property ;
+vente:y a rdf:Property ;
     rdfs:label "y" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-Vente:xRatingValue a rdf:Property ;
+vente:xRatingValue a rdf:Property ;
     rdfs:label "xRatingValue" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-Vente:yRatingValue a rdf:Property ;
+vente:yRatingValue a rdf:Property ;
     rdfs:label "yRatingValue" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-Vente:degradName a rdf:Property ;
+vente:degradName a rdf:Property ;
     rdfs:label "degradName" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-Vente:degradColors a rdf:Property ;
+vente:degradColors a rdf:Property ;
     rdfs:label "degradColors" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
-Vente:creationDate a rdf:Property ;
+vente:creationDate a rdf:Property ;
     rdfs:label "creationDate" ;
     rdfs:domain o:Resource .
 
-Vente:hasActant a rdf:Property ;
+vente:hasActant a rdf:Property ;
     rdfs:label "a comme actant" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-Vente:hasDoc a rdf:Property ;
+vente:hasDoc a rdf:Property ;
     rdfs:label "a comme document" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
-Vente:hasConcept a rdf:Property ;
+vente:hasConcept a rdf:Property ;
     rdfs:label "a comme concept" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
