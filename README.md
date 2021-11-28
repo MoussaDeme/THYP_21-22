@@ -2,4 +2,6 @@
 
 http://omeka-s/api/items/1
 
-trombino : https://github.com/MoussaDeme/THYP_21-22/blob/master/ex1/index.html
+trombino : https://moussademe.github.io/THYP_21-22/ex1/index.html
+
+omk :     https://moussademe.github.io/THYP_21-22/omk/index.html   
