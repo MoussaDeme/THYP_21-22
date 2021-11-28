@@ -18,14 +18,14 @@
             
             d3.json("data/item_1.json", function(error, data) {
             console.log("data item 1 : ",data);
-            /*console.log("it title : ",data["o:title"])
-            let divEtus = d3.select('#item1').text("item1 : "+data["o:title"]+" lien ressource template : "+data["o:resource_template"]["@id"])*/
+            console.log("it title : ",data["o:title"])
+            let divEtus = d3.select('#item1').text("item1 : "+data["o:title"]+" lien ressource template : "+data["o:resource_template"]["@id"])
             });
 
-            /*d3.json("../data/ressource_templates.json", function(error, data) {
+            d3.json("data/ressource_templates.json", function(error, data) {
             console.log("ressource templates : ",data);
             let divEtus = d3.select('#ressource').text("all ressources templates : "+data[0]["o:label"]+" "+data[1]["o:label"]+" "+data[2]["o:label"]+" "+data[3]["o:label"]+" "+data[4]["o:label"])
-            });*/
+            });
 
         </script>
 
