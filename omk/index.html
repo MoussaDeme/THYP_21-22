@@ -9,7 +9,26 @@
 
     </head>
     <body>
-        
+        <h1>JSON DATA</h1>
+        <p id="item1"></p>
+        <p id="ressource"></p>
+        <p></p>
+        <p></p>
+        <script>
+            
+            d3.json("../data/item_1.json", function(error, data) {
+            console.log("data item 1 : ",data);
+
+            console.log("it title : ",data["o:title"])
+            let divEtus = d3.select('#item1').text("item1 : "+data["o:title"]+" lien ressource template : "+data["o:resource_template"]["@id"])
+            });
+
+            d3.json("../data/ressource_templates.json", function(error, data) {
+            console.log("ressource templates : ",data);
+            let divEtus = d3.select('#ressource').text("all ressources templates : "+data[0]["o:label"]+" "+data[1]["o:label"]+" "+data[2]["o:label"]+" "+data[3]["o:label"]+" "+data[4]["o:label"])
+            });
+
+        </script>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
